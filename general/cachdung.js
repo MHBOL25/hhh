@@ -13,8 +13,8 @@ if (message.channel.id != room) {
 if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🚀 **Tank** 🚀')
-	.setDescription("**Created by VenThings - and**\n`? .methods DDOS - .<methods> + <url>`\n`VD : .CF-UAM + <url>`\n `Subscribe VenThings`")
+	.setTitle('🚀 **LIZNDYA** 🚀')
+	.setDescription("**Created by ROMEO - and**\n`? .methods DDOS - .<methods> + <url>`\n`VD : .CF-UAM + <url>`\n `Subscribe LIZNDYA`")
 	message.channel.send(embed1);
 	return;
 	}
