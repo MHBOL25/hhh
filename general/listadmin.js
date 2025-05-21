@@ -14,7 +14,7 @@ if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🚀 **listadmin** 🚀')
-	.setDescription("**Admin Server** \n`ADMIN server ** Developer : VenThings **")
+	.setDescription("**Admin Server** \n`ADMIN server ** Developer : ROMEO **")
 	message.channel.send(embed1);
 	return;
 	}
