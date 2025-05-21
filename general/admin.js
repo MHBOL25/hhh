@@ -13,8 +13,8 @@ if (message.channel.id != room) {
 if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🚀 **Tank** 🚀')
-	.setDescription("**ADMIN** \n`Contact : havenpapasinm@gmail.com ` \n`Bot created on : 2023-3-24` \n`tools : ddos game, ddos web, trace location(soon).`\n `Gmail : havenpapasinm@gmail.com`\n ** Developer : VenThings **")
+	.setTitle('🚀 **LIZNDYA** 🚀')
+	.setDescription("**ADMIN** \n`Contact : lizndyavip@gmail.com ` \n`Bot created on : 2023-3-24` \n`tools : ddos game, ddos web, trace location(soon).`\n `Gmail : lizndyavip@gmail.com`\n ** Developer : ROMEO **")
 	message.channel.send(embed1);
 	return;
 	}
