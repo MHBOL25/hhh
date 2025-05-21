@@ -6,8 +6,8 @@ var prefix = ayarlar.prefix;
 
 const girismesaj = [
   '**Bot Added to Server',
-  '**ZER0BOT** attack any any any any server',
-  'Bot Has All Kinds of Commands'
+  '**LIZNDYA** attack any any any any server',
+  'Bot VIP Commands'
 ]
 
 client.on('guildCreate', guild => {
