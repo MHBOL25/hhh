@@ -15,10 +15,10 @@ exec(`pkill 'go'`, (error, stdout, stderr) => {
 console.log('Stop all attacks:' +  message.guild.id)
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🚀 **VenThings DDOS** 🚀')
+	.setTitle('🚀 **LIZNDYA DDOS** 🚀')
 	.setTimestamp()
 	.setDescription("**► STOP NOW WITH FBI 💥**")
-	.setFooter('© Developer: VenThings#3280', client.user.avatarURL)
+	.setFooter('© Developer: ROMEO', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
  message.channel.send(embed);
