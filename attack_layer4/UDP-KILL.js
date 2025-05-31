@@ -17,7 +17,7 @@ if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('WARRING')
-	.setDescription("`Ex ;UDP-KILL 1.1.1.1 80 60`")
+	.setDescription("`example .UDP-KILL 1.1.1.1 80 60`")
 	.setFooter("Please do not attack government server!")
 	message.channel.send(embed1);
 	return;
